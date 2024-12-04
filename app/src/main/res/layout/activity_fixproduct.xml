@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="THÊM SẢN PHẨM"
+        android:text="SỬA SẢN PHẨM"
         android:textSize="@dimen/_24sp"
         android:textStyle="bold"
         android:textColor="@color/black"

@@ -45,6 +45,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/khunginput"
         android:hint="Mật khẩu"
+        android:inputType="textPassword"
         />
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -91,5 +92,10 @@
             app:layout_constraintStart_toEndOf="@id/txt_contentdangky"
             />
     </androidx.constraintlayout.widget.ConstraintLayout>
-
+    <!-- Container for Fragment (add this) -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"/>
 </LinearLayout>

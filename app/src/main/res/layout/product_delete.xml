@@ -8,7 +8,7 @@
         android:layout_width="0dp"
         android:layout_height="200dp"
         android:orientation="horizontal"
-        android:background="#4AB8C6"
+        android:background="@drawable/khungproduct"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +37,7 @@
             android:id="@+id/btn_delete"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="#4AB8C6"
+            android:background="#00FFEB"
             android:src="@drawable/baseline_delete_24"/>
 
     </LinearLayout>
